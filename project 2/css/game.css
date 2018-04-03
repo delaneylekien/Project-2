@@ -1,0 +1,26 @@
+.background    { background-image: url(https://i.pinimg.com/originals/3c/8a/e6/3c8ae6eca4cbce77dfbfd8bf5af19869.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(70, 81, 9); }
+.wall          { background-image: url(https://i.imgur.com/eHsUG.png);   }
+.mud           { background: rgb(75, 53, 6);   }
+.water         { background-image: url(http://pixelartmaker.com/art/60c073cefbb1617.png);  }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(http://pixelartmaker.com/art/19e181fc0280734.png); }
+.player { background: rgb(64, 64, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow;
+}
